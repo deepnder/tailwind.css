@@ -10,7 +10,7 @@ function App() {
     <>
       <header className=' mx-3 my-3 '>
         <div className='sm:flex sm:mt-20 justify-center '>
-          <div className=' sm:flex shadow-lg'>
+          <div className=' sm:flex shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]'>
           <div className='relative'>
             <img className='w-[100%] h-[12rem] relative rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none sm:h-[10.6rem] sm:w-[15rem] lg:h-[9rem]' src={home} alt="home" />
             <AiOutlineHeart className=' absolute top-4 right-6 text-white sm:left-[1rem]' />
