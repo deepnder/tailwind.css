@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <header className=' mx-3 my-3 '>
-        <div className='sm:flex sm:mt-20 justify-center shadow-md'>
+        <div className='sm:flex sm:mt-20 justify-center '>
+          <div className=' sm:flex shadow-lg'>
           <div className='relative'>
             <img className='w-[100%] h-[12rem] relative rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none sm:h-[10.6rem] sm:w-[15rem] lg:h-[9rem]' src={home} alt="home" />
             <AiOutlineHeart className=' absolute top-4 right-6 text-white sm:left-[1rem]' />
@@ -44,6 +45,7 @@ function App() {
             </div>
             </div>
           </div>
+        </div>
         </div>
       </header>
     </>
